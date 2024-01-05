@@ -17,10 +17,4 @@ var isValid = function(s) {
     }
     return stack.length === 0;
 };
-let inputString = "{[()]}";
-
-if (isValid(inputString)) {
-    console.log("true");
-} else {
-    console.log("false");
-}
+module.exports = { isValid };
